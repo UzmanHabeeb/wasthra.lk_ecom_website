@@ -1,0 +1,57 @@
+
+body {
+	margin: 0;
+	font-size: 20px;
+	background-image: url(./template/pexels-cottonbro-3944405.jpg);
+	background-size: cover;
+}
+
+.navi {
+		height:46px;
+		width: 700px;
+	}
+.navi ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #29293d;
+	opacity: 0.8;
+}
+.navi li{
+	float: left;
+}
+.navi a, .dropbtn{
+	display: inline-block;
+	color: #ffff00;
+	text-align: center;
+	padding: 10px 16px;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.navi a:hover, .dropdown:hover .dropbtn{
+	background-color: red;
+}
+li.dropdown{
+	display: inline-block;
+}
+.cont_dropdown {
+	display: none;
+	position: absolute;
+	background-color: #ccffff;
+	width: 165px;
+	box-shadow: 0 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.cont_dropdown a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.cont_dropdown a:hover { background-color:#00cccc;}
+.dropdown:hover .cont_dropdown {
+	display: block;
+}

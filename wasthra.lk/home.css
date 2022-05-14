@@ -1,0 +1,34 @@
+body{
+
+	background-image: url(./template/template2.jpg);
+	background-size: cover;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	opacity: 0.8;
+}
+
+li{
+	float: left;
+
+}
+
+li a, .dropbtn{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a :hover, .dropdown:hover  .dropbtn{
+	background-color: red;
+}
+
+
+
